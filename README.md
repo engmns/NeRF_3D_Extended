@@ -1,6 +1,7 @@
 # NeRF_3D_Extended
 
-This is an extended version of NeRF from NeRF: Neural Radiance Fields implemented in PyTorch. but using the Tiny version (the architecture is able to run on small GPUs) of it which can works well on Google Colab.
+This is an extended version of NeRF from NeRF: Neural Radiance Fields implemented in PyTorch, but using the Tiny version (the architecture is able to run on small GPUs) of it which can works well on Google Colab.
+The original paper NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis by Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi and Ren Ng appeared at ECCV 2020.
 
 Compared to the previous versions implementation of Tiny NeRF, this version includes using the Gaussian Density Function, 5D input + view directions and Hierarchical Sampling.
 
